@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile search panel</title>
+</head>
+<style>
+div#submit {
+    padding: 10% 40%;
+}
+.inp{
+    padding: 8px 25px;
+}
+.btn{
+    padding: 10px 18px;
+    background-color: green;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+
+</style>
+ <body>
+    <div id = "submit">
+    <h2>Search Mobile Model</h2>
+    <select name=""  class="inp" id="mobileName" onchange="nestedRender()"></select>
+    <select name=""  class="inp" id="mobileModel"></select>
+     <!-- <input type="text" id="model"></input> -->
+    <!-- <input type="text" id="model"> -->
+    <button class= "btn" onclick="search()">Search</button>
+</div>
+    <script src="search.js"></script>                                                                                                         
+</body>
+</html>
